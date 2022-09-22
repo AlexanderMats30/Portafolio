@@ -126,3 +126,38 @@ nav ul li{
     line-height: var(--line-height);
     padding: 0.3rem 0;
 }
+
+.about-me {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+}
+  
+.about-me h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+  
+.about-me p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
+}
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+  
+.header-skills {
+    margin-bottom: 1rem;
+}
+  
+.container-skills img {
+    padding: 1.25rem;
+}
+  
+.icon {
+    width: 11.875rem;
+    height: 11.25rem;
+}
