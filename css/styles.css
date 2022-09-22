@@ -218,35 +218,35 @@ nav ul li{
     margin: 10px
 }
 /*Contact*/
-.contacto {
+.contact{
     margin-top: 2rem;
-  }
-  
-  .contacto h2 {
+}
+
+.contact h2{
     text-align: center;
     margin-bottom: var(--bottom-margin-2);
-  }
-  
-  .contenedor-formulario-contacto {
+}
+
+.container-form-contact{
     max-width: 40.75rem;
     margin: 0 auto;
     padding: 0.938rem;
     border-radius: 5px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
-  }
+}
 
-  .contenedor-formulario-contacto label {
+.container-form-contact label{
     line-height: 2.7em;
     font-weight: var(--bold-font);
     color: var(--primary-color);
-  }
-  
-  .contenedor-formulario-contacto textarea {
+}
+
+.container-form-contact textarea{
     min-height: 6.25rem;
     font-size: 14px;
-  }
-  
-  .contenedor-formulario-contacto .input-field {
+}
+
+.container-form-contact .input-field{
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -255,14 +255,14 @@ nav ul li{
     border: 2px outset var(--primary-color);
     font-size: 0.875rem;
     outline: none;
-  }
+}
 
-  .input-field::placeholder {
+.input-field::placeholder{
     padding: 0.5rem;
     color: var(--primary-color);
-  }
+}
 
-  .submit-btn {
+.submit-btn{
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -272,10 +272,10 @@ nav ul li{
     font-size: 1rem;
     font-weight: var(--bold-font);
     transition: var(--transition);
-  }
+}
 
-  .submit-btn:hover {
+.submit-btn:hover{
     background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
-    cursor: pointer;
-  }
+    cursor: pointer
+}
