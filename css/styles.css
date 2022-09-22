@@ -54,3 +54,30 @@ nav{
     background-color: var(--bg-color);
     box-shadow: 0 3px 5px rgba(0,0,0,0.1);
 }
+
+nav h1{
+    color: var(--color-primario);
+}
+
+nav a{
+    color: var(--color-primario);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+nav a:hover{
+    color: var(--valor-secundario);
+    border-bottom: 2px solid var(--valor-secundario);
+}
+
+nav ul{
+    display: flex;
+    gap: 1.9rem;
+}
+
+nav ul li{
+    font-weight: var(--negrita);
+}
