@@ -42,7 +42,7 @@ body{
     font-family: var(--font-family);
 }
 
-nav{
+header{
     position: sticky;
     top: 0;
     left: 0;
@@ -52,15 +52,15 @@ nav{
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
     background-color: var(--bg-color);
-    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav h1{
-    color: var(--color-primario);
+    color: var(--primary-color);
 }
 
 nav a{
-    color: var(--color-primario);
+    color: var(--primary-color);
     transition: var(--transition);
     -webkit-transition: var(--transition);
     -moz-transition: var(--transition);
@@ -69,15 +69,25 @@ nav a{
 }
 
 nav a:hover{
-    color: var(--valor-secundario);
-    border-bottom: 2px solid var(--valor-secundario);
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 nav ul{
     display: flex;
+    flex-direction: row;
     gap: 1.9rem;
 }
 
 nav ul li{
-    font-weight: var(--negrita);
+    font-weight: var(--bold-font);
+}
+
+.menu-hamburguesa{
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
 }
